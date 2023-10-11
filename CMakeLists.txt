@@ -208,6 +208,7 @@ set_target_properties(libport PROPERTIES
 
 set(CPACK_PACKAGE_DESCRIPTION "Wine portability library")
 set(CPACK_PACKAGE_HOMEPAGE_URL "https://codeberg.org/KOLANICH-wine/wine-port")
+message(STATUS "We have moved from M$ GitHub to ${CPACK_PACKAGE_HOMEPAGE_URL}, read why on https://codeberg.org/KOLANICH/Fuck-GuanTEEnomo . ")
 set(CPACK_PACKAGE_MAINTAINER "${CPACK_PACKAGE_VENDOR}")
 set(CPACK_DEBIAN_PACKAGE_MAINTAINER "${CPACK_PACKAGE_MAINTAINER}")
 set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/LICENSE.md")
